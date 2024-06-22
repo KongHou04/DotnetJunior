@@ -1,0 +1,106 @@
+/* You can add global styles to this file, and also import other style files */
+.fs-12{
+    font-size: 12px !important;
+}
+.fs-13{
+    font-size: 13px !important;
+}
+.fs-15{
+    font-size: 15px !important;
+}
+.fs-18{
+    font-size: 18px !important;
+}
+.fs-22{
+    font-size: 22px !important;
+}
+
+
+.text-right{
+    text-align: right !important;
+}
+
+
+.ff-roboto{
+    font-family: Roboto;
+}
+.ff-roboto-sans{
+    font-family: Roboto, sans-serif;
+}
+.ff-quick-sans{
+    font-family: Quicksand, sans-serif;
+}
+.ff-dosis-sans{
+    font-family: Dosis, sans-serif;
+}
+
+
+.fw-400{
+    font-weight: 400;
+}
+
+
+.w-33{
+    width: 33% !important;
+}
+
+
+.my-form-label{
+    font-family: Roboro, sans-serif; 
+    font-size: 13px;
+    margin-bottom: 2px;
+}
+.my-form-control{
+    border: none !important;
+}
+.my-form-control:active{
+    box-shadow: none !important;
+}
+
+
+.fill-from-left-element{
+    transform-origin: left;
+    animation: fill-width 1s linear forwards;
+}
+
+
+.btn-filter{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(196, 196, 196);
+    padding: 4px 15px;
+    border-radius: 4px;
+}
+.title{
+    font-family: Dosis, sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 10px;
+    color: #383838;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+.title-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -100;
+}
+.title-bg-hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0%;
+    background-color: rgb(152, 226, 231);
+    z-index: -10;
+    transition: 1s;
+}
+.title:hover .title-bg-hover{
+    width: 100%;
+}
+
+
+

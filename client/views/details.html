@@ -1,0 +1,229 @@
+<div class="container my-4">
+  <div class="row gx-4">
+    <!-- Detail section -->
+    <div class="col-12 col-md-8">
+      <div class="bg-body" style="box-shadow: 0 1px 4px rgb(202, 202, 202)">
+        <!-- course img -->
+        <div class="position-relative">
+          <img
+            class="img-fluid card-img-top"
+            ng-src="/assets/courses/{{course.img}}"
+            alt=""
+          />
+          <div class="view-tag d-flex">
+            <img
+              class="img-fluid me-1"
+              src="/assets/icons/view.png"
+              alt=""
+              style="height: 16px"
+            />
+            <span
+              style="
+                color: #666666;
+                font-size: 15px;
+                align-self: center;
+                line-height: 1;
+              "
+              >{{course.view}}</span
+            >
+          </div>
+        </div>
+
+        <!-- detail header -->
+        <div class="p-4 border-bottom ff-roboto-sans">
+          <h2>{{course.title}}</h2>
+          <div class="d-flex mt-3 align-self-center">
+            <div class="d-flex">
+              <img
+                class="img-fluid detail-owner-icon align-self-center"
+                src="/assets/icons/owner.png"
+                alt=""
+              />
+              <div class="ms-1 detail-owner-text">
+                By
+                <a class="text-decoration-none" href="">{{course.owner}}</a>
+              </div>
+            </div>
+
+            <div class="d-flex">
+              <img
+                class="ms-5 img-fluid detail-owner-icon align-self-center"
+                src="/assets/icons/calendar.png"
+                alt=""
+              />
+              <div class="ms-1 detail-owner-text">{{course.releaseDate}}</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Body -->
+        <div
+          class="p-4 pb-5 border-bottom ff-roboto-sans"
+          style="letter-spacing: 0.3px; word-spacing: 1.5px; color: #666666"
+        >
+          <div class="row gy-3">
+            <div ng-repeat="description in course.descriptions">
+              {{description}}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="bg-body-tertiary mt-4 mb-5"
+        style="box-shadow: 0 1px 4px rgb(202, 202, 202)"
+      >
+        <!-- detail header -->
+        <div class="p-4 border-bottom ff-roboto-sans">
+          <h2 class="mb-0">Detail of the Course</h2>
+        </div>
+
+        <!-- Body -->
+        <div
+          class="p-4 pb-5 border-bottom ff-roboto-sans"
+          style="letter-spacing: 0.3px; word-spacing: 1.5px; color: #666666"
+        >
+          <div class="d-flex"></div>
+          <div class="row gy-3">
+            <div class="col-2 align-self-center mb-3 fw-medium fs-18">
+              About:
+            </div>
+            <div class="col-10 mb-3">{{course.about}}</div>
+            <!-- <div class="col-2 fw-medium fs-18">Level:</div>
+              <div class="col-10 fs-18">Basic</div> -->
+            <div class="col-2">Lesson:</div>
+            <div class="col-10">
+              <div
+                class="progress h-100"
+                role="progressbar"
+                ng-attr.aria-valuenow="{{ course.numOfLessons }}"
+                aria-valuemin="0"
+                ng-attr.aria-valuemax="20"
+              >
+                <div
+                  class="progress-bar bg-success"
+                  ng-style="{ 'width': calculateProgressBarWidth(course.numOfLessons, 20)}"
+                >
+                  {{ course.numOfLessons }}
+                </div>
+              </div>
+            </div>
+            <div class="col-2">Video:</div>
+            <div class="col-10">
+              <div
+                class="progress h-100"
+                role="progressbar"
+                aria-label="Success example"
+                aria-valuenow="course.numOfVideos"
+                aria-valuemin="0"
+                aria-valuemax="10"
+              >
+                <div
+                  class="progress-bar bg-primary"
+                  ng-style="{ 'width': calculateProgressBarWidth(course.numOfVideos, 10)}"
+                >
+                  {{course.numOfVideos}}
+                </div>
+              </div>
+            </div>
+            <div class="col-2">Assignment:</div>
+            <div class="col-10">
+              <div
+                class="progress h-100"
+                role="progressbar"
+                aria-label="Success example"
+                aria-valuenow="course.numOfAssignments"
+                aria-valuemin="0"
+                aria-valuemax="15"
+              >
+                <div
+                  class="progress-bar bg-danger"
+                  ng-style="{ 'width': calculateProgressBarWidth(course.numOfAssignments, 15)}"
+                >
+                  {{course.numOfAssignments}}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-4">
+      <div class="bg-body" style="box-shadow: 0 1px 4px rgb(202, 202, 202)">
+        <div class="p-4 border-bottom ff-roboto-sans">
+          <h2 class="mb-0">Information</h2>
+        </div>
+        <div class="p-4 row gx-3 gy-3 ff-quick-sans fs-15">
+          <div class="col-6">ID:</div>
+          <div class="col-6">{{course.id}}</div>
+          <div class="col-6">Owner:</div>
+          <div class="col-6">{{course.owner}}</div>
+          <div class="col-6">View:</div>
+          <div class="col-6">{{course.view}}</div>
+          <div class="col-6">Release date:</div>
+          <div class="col-6">{{course.releaseDate}}</div>
+          <div class="col-6">Version:</div>
+          <div class="col-6">1.0.0</div>
+        </div>
+        <div class="px-4 pb-5">
+          <div class="row">
+            <div class="col-6">
+              <button class="btn btn-secondary act-btn" style="width: 100%">
+                <a class="nav-link" href="/page/detail.html"> DOWNLOAD </a>
+              </button>
+            </div>
+            <div class="col-6">
+              <button ng-click="joinCourse(course)" class="btn btn-success act-btn" style="width: 100%">
+                JOIN NOW
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="bg-body mt-4 mb-5"
+        style="box-shadow: 0 1px 4px rgb(202, 202, 202)"
+      >
+        <div class="p-4 border-bottom ff-roboto-sans">
+          <h2 class="mb-0">Other Actions</h2>
+        </div>
+        <div class="p-4 row pb-5 gx-3 gy-3 ff-roboto-sans fs-15">
+          <div>If you excited to our course</div>
+          <a ng-href="#!/courses"
+            class="btn btn-outline-success fw-semibold col-12"
+          >
+            See other courses
+          </a>
+          <button
+            class="btn btn-outline-success fw-semibold col-12"
+            type="button"
+          >
+            Visit our fanpage
+          </button>
+
+          <div class="mt-5">Or you can download documents</div>
+          <button
+            class="btn btn-outline-success fw-semibold col-12"
+            type="button"
+          >
+            Download Document
+          </button>
+          <button
+            class="btn btn-outline-success fw-semibold col-12"
+            type="button"
+          >
+            Download Video
+          </button>
+          <button
+            class="btn btn-outline-success fw-semibold col-12"
+            type="button"
+          >
+            Download Assignment
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

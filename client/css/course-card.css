@@ -1,0 +1,29 @@
+.introduction{
+    font-size: 15px;
+    font-family: Roboto;
+    line-height: 1.6;
+    color: #474747;
+}
+.act-btn{
+    border-radius: 0;
+    font-weight: 500;
+    color: white;
+    padding-left: 5px !important; 
+    padding-right: 5px !important;
+}
+.view-tag{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: rgb(233, 230, 230);
+    padding: 3px 10px;
+    border-radius: 3px;
+    font-weight: bold;
+    font-family: Quicksand, sans-serif;
+}
+.my-card{
+    box-shadow: 0 0 10px 1px rgb(192, 192, 192);
+    cursor: pointer;
+    transition: 0.5s;
+    overflow: hidden;
+}

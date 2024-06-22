@@ -1,0 +1,79 @@
+.text-banner{
+    color: #252525;
+}
+
+.banner-section-1{
+    background-color: #8ddbdf;
+}
+
+.banner-section-2{
+    background-color: #DFEAF8;
+}
+
+.banner-welcome{
+    font-family: Inter,sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 1;
+    margin-bottom: 5px;
+}
+
+.typed-cursor{
+    line-height: 1.3;
+    font-size: 37px;
+}
+
+
+.banner-logo-name{
+    font-family: Inter, Roboto;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 1;
+    padding-bottom: 10px;
+}
+
+.banner-details{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.4;
+    padding-top: 7px;
+    padding-bottom: 10px;
+}
+
+.banner-goal{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+.banner-mid-li{
+    margin-top: 5.5px;
+    margin-bottom: 5.5px;
+}
+.banner-mid-box{
+    height: 40px;
+    width: 40px;
+    min-height: 40px !important;
+    min-width: 40px !important;
+    border-radius: 20px
+}
+.banner-mid-img{
+    scale: 0.7;
+}
+.banner-mid-li>div{
+    font-family:Cambria;
+    font-size: 21px;
+}
+
+
+
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+    .banner-logo-name{
+        font-size: 40px;
+    }
+    .typed-cursor{
+        font-size: 32px;
+    }
+}

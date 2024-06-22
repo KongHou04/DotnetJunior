@@ -1,0 +1,75 @@
+{
+  "users": [
+    {
+      "userName": "superadmin",
+      "password": "admin123123",
+      "email": "conghau31052004@gmail.com",
+      "phone": "0775541796",
+      "createTime": "15/3/2021",
+      "isAdmin": true,
+      "id": "84eb"
+    },
+    {
+      "userName": "duchieunguyen",
+      "password": "1234567890",
+      "email": "duchieu3535@gmail.com",
+      "phone": "1234567890",
+      "createTime": "02/9/2020",
+      "isAdmin": false,
+      "id": "1b88"
+    },
+    {
+      "userName": "chucachoida123",
+      "password": "chucachoida123",
+      "email": "choiDapheQua@example.com",
+      "phone": "9876543210",
+      "createTime": "22/7/2021",
+      "isAdmin": false,
+      "id": "16ae"
+    },
+    {
+      "id": "a8c8",
+      "userName": "conghau31052005",
+      "password": "123123123123",
+      "email": "conghauDemo@gmail.com",
+      "createTime": "31/5/2019",
+      "isAdmin": false,
+      "phone": ""
+    },
+    {
+      "id": "a72b",
+      "userName": "conghautester",
+      "password": "conghautester",
+      "email": "conghau@gmail.com.vn",
+      "phone": ""
+    },
+    {
+      "id": "6d47",
+      "userName": "123123123123",
+      "password": "123123123123",
+      "email": "123conghau@gmail.com",
+      "phone": ""
+    },
+    {
+      "id": "cb3b",
+      "userName": "abcChecker123",
+      "password": "123123123123",
+      "email": "test@gmail.com",
+      "phone": ""
+    },
+    {
+      "id": "4995",
+      "userName": "ConCaChoiKeo143",
+      "password": "123123123123",
+      "email": "cuocsongKila@gmail.com",
+      "phone": ""
+    },
+    {
+      "id": "850d",
+      "userName": "helloworld123",
+      "password": "123123123123",
+      "email": "helloworldFromMe@gmail.vn",
+      "phone": ""
+    }
+  ]
+}

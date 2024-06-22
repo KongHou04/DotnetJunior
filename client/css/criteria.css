@@ -1,0 +1,40 @@
+.box-offer{
+    border-radius: 10px;
+    box-shadow: 0 0 4px 1px rgb(179, 178, 178);
+    color: rgb(70, 70, 69);
+    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.box-offer:hover{
+    transform:translateY(-5px);
+    box-shadow: 0 0 10px 2px rgb(179, 178, 178);
+}
+
+.box-offer-title{
+    font-family:sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+.box-offer-p{
+    font-family: roboto;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+@media only screen and (max-width: 992px){
+    .box-offer-title{
+        font-family:sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .box-offer-p{
+        font-family: roboto;
+        font-size: 13.5px;
+        font-weight: 400;
+    }
+}
+

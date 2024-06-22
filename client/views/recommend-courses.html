@@ -1,0 +1,76 @@
+<!-- Course List -->
+<div class="container border-top py-5">
+  <!-- Header -->
+  <div class="mb-4">
+    <div class="row gx-3 gy-3">
+      <div class="col-sm-6">
+        <div class="title p-2 text-center" style="width: 280px">
+          Recommend Cours List
+          <div class="bg-info-subtle title-bg fill-from-left-element"></div>
+          <div class="title-bg-hover"></div>
+        </div>
+      </div>
+      <div *ngIf="isMoreCouresLinkEnable" class="col-md-6">
+        <div class="title p-2 text-center ms-md-auto" style="width: 280px">
+          <a href="courses/byRD" style="text-decoration: none; color: #383838">
+            See more Coures here !!
+            <div class="bg-info-subtle title-bg fill-from-left-element"></div>
+            <div class="title-bg-hover"></div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row gx-3 gy-3">
+    <div class="col-lg-4 col-md-6 col-12">
+      <div class="card" ng-repeate="course in courses">
+        <img
+          loading="eager"
+          class="card-img-top img-fluid"
+          src="{{course.img}}"
+        />
+        <div class="view-tag d-flex">
+          <img
+            class="img-fluid me-1"
+            src="../../../assets/icons/view.png"
+            alt=""
+            style="height: 16px"
+          />
+          <span
+            style="
+              color: #666666;
+              font-size: 15px;
+              align-self: center;
+              line-height: 1;
+            "
+            >{{ course.view }}</span
+          >
+        </div>
+        <div class="p-4">
+          <div class="mb-2 fs-22 fw-medium ff-dosis-sans">
+            {{ course.title }}
+          </div>
+          <div class="py-2 introduction border-top">
+            {{ course.introduction }}
+          </div>
+          <div class="row gx-3 pt-2">
+            <div class="col-6">
+              <button class="btn btn-secondary act-btn" style="width: 100%">
+                <a class="nav-link" [routerLink]="['/details', course.id]">
+                  DETAILS
+                </a>
+              </button>
+            </div>
+            <div class="col-6">
+              <button class="btn btn-success act-btn" style="width: 100%">
+                START
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

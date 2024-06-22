@@ -1,0 +1,80 @@
+.custome-nav-item{
+    padding-left: 20px;
+}
+
+.custome-nav-link{
+    font-family: Inter,sans-serif;
+    padding: 5px 7px !important;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.4s;
+    color: #333333;
+    cursor: pointer;
+}
+/* .custome-nav-link:hover{
+    background-color: #c6e9c9;
+} */
+.nav-link-span{
+    margin-left: 10px;
+}
+
+
+.nav-search-bar{
+    font-size: 13px;
+    padding: 5px 15px;
+    height: 30px;
+    margin: auto;
+    min-width: 200px;
+}
+.nav-search-button{
+    height: 30px;
+    min-width: 80px;
+    padding: 0 5px;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0;
+    margin-left: 2px !important;
+    font-family: Inter,sans-serif;
+}
+
+.dropdown-item{
+    font-size: 15px;
+    padding-top: 7.5px !important;
+    padding-bottom: 7.5px !important;
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1200px){
+    .nav-link-span{
+        display: none !important;
+        color: red;
+    }
+}
+
+
+@media only screen and (max-width: 768px){
+    .custome-nav-item{
+        padding: 5px 0 !important;
+    }
+    .custome-nav-link{
+        font-family: Inter,sans-serif;
+        padding: 5px 0 !important;
+        font-size: 13px;
+        font-weight: bold;
+        border-radius: 5px;
+        transition: 0.4s;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .custome-nav-link:hover{
+        background-color: #8ddbdf;
+    }
+    .btn-login{
+        background-color: #8ddbdf;
+    }
+    
+}
+

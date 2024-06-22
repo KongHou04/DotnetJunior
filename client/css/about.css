@@ -1,0 +1,56 @@
+.wrap-section-img {
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.text-review span {
+  color: hsla(0, 10%, 5%, 0.199);
+  background-clip: text;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: linear-gradient(90deg, rgb(12, 77, 97), rgb(20, 119, 158));
+  animation: scroll-text linear forwards;
+  animation-timeline: view();
+  animation-delay: 0.2s;
+}
+.text-review > h3 > span {
+  animation-range-start: cover 18vh;
+  animation-range-end: cover 28vh;
+}
+.text-review > div > span {
+  animation-range-start: cover 23vh;
+  animation-range-end: cover 33vh;
+}
+.scroll-img,
+.scroll-img-reverse {
+  will-change: transform;
+}
+.scroll-img {
+  animation: scroll-imgs 30s linear infinite; /* Áp dụng animation với thời gian 10s và lặp lại vô hạn */
+}
+.scroll-img-reverse {
+  animation: scroll-imgs-reverse 30s linear infinite; /* Áp dụng animation với thời gian 10s và lặp lại vô hạn */
+}
+
+@keyframes scroll-text {
+  to {
+    background-size: 100% 100%;
+    line-height: 1.6;
+  }
+}
+@keyframes scroll-imgs {
+  0% {
+    transform: translate3d(0, -20%, 0);
+  }
+  100% {
+    transform: translate3d(0, -80%, 0);
+  }
+}
+
+@keyframes scroll-imgs-reverse {
+  0% {
+    transform: translate3d(0, -80%, 0);
+  }
+  100% {
+    transform: translate3d(0, -20%, 0);
+  }
+}

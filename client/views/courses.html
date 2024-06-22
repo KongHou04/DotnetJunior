@@ -1,0 +1,89 @@
+<div class="container border-top pb-5 pt-4">
+  <div class="mb-4">
+    <div class="row gx-3 gy-3">
+      <div class="col-sm-6">
+        <div class="title p-2 text-center" style="width: 280px">
+          Recommend Cours List
+          <div class="bg-info-subtle title-bg fill-from-left-element"></div>
+          <div class="title-bg-hover"></div>
+        </div>
+      </div>
+      <div class="col-md-6 d-flex justify-content-md-end"
+        style="min-height: 49px"
+      >
+        <div class="">
+          <select class="form-select h-100" ng-model="selectedSortProperty" ng-change="sortData()">
+            <option  ng-repeat="opt in sortProperties" ng-value="opt">{{opt}}</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row gx-4 gy-4">
+    <div class="col-lg-4 col-md-6 col-12" ng-repeat="course in pagedItems">
+      <div class="card my-card">
+        <img
+          loading="eager"
+          class="card-img-top img-fluid"
+          ng-src="{{'assets/courses/' + course.img}}"
+        />
+        <div class="view-tag d-flex">
+          <img
+            class="img-fluid me-1"
+            src="/assets/icons/view.png"
+            alt=""
+            style="height: 16px"
+          />
+          <span
+            style="
+              color: #666666;
+              font-size: 15px;
+              align-self: center;
+              line-height: 1;
+            "
+            >{{ course.view }}</span
+          >
+        </div>
+        <div class="p-4">
+          <div class="mb-2 fs-22 fw-medium ff-dosis-sans">
+            {{ course.title }}
+          </div>
+          <div class="py-2 introduction border-top">
+            {{ course.introduction }}
+          </div>
+          <div class="row gx-3 pt-2">
+            <div class="col-6">
+              <button class="btn btn-secondary act-btn" style="width: 100%" ng-click="scrollToTop()">
+                <a class="nav-link" ng-href="#!/details/{{course.id}}"> DETAILS </a>
+              </button>
+            </div>
+            <div class="col-6">
+              <button class="btn btn-success act-btn" style="width: 100%">
+                START
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mt-4">
+    <div aria-label="Page navigation example" >
+      <ul class="pagination justify-content-center">
+        <li class="page-item page-link" ng-click="changePage(1)" style="cursor: pointer;">
+          <span aria-hidden="true">&laquo;</span>
+        </li>
+        <li ng-repeat="p in visiblePages" class="page-item page-link" 
+          ng-click="changePage(p)" ng-class="{'active': isCurrentPage(p)}"
+          style="cursor: pointer;">
+          {{ p }}
+        </li>
+        <li class="page-item page-link" ng-click="changePage(totalPage)" style="cursor: pointer;">
+          <span aria-hidden="true">&raquo;</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,246 @@
+<!-- Login/Register Modal -->
+<div ng-controller="LoginController" class="container-fluid" ng-show="isLoginModalShow">
+  <div
+    class="modal fade"
+    id="loginModel"
+    tabindex="-1"
+    aria-labelledby="exampleModalLabel"
+    aria-hidden="true"
+  >
+    <div
+      class="modal-dialog"
+      style="max-width: 400px; margin-left: auto; margin-right: auto"
+    >
+      <div class="modal-content">
+        <div
+          class="position-relative modal-body p-0"
+          style="max-height: 548.5px"
+        >
+          <div class="swiper myLoginSwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="mx-5 my-4">
+                  <form>
+                    <div
+                      class="fs-5 fw-medium text-center"
+                      style="font-family: Roboto, sans-serif"
+                    >
+                      Sign in to
+                      <span class="fs-3 fw-bold">DotnetJunior</span>
+                    </div>
+                    <div
+                      class="fs-13 text-center"
+                      style="font-family: Roboto, sans-serif"
+                    >
+                      We can help you manage your progress easier
+                    </div>
+
+                    <div class="mb-3 mt-4">
+                      <div class="d-flex">
+                        <div for="login-username" class="my-form-label px-1">Username</div>
+                        <div class="ms-auto fs-12 text-danger text-right" style="height: 20px;">{{login.userNameError}}</div>
+                      </div>
+                      <input
+                        name="loginUserName"
+                        type="text"
+                        class="form-control"
+                        id="login-username"
+                        ng-model="login.userName"
+                      />
+                    </div>
+                    
+
+                    <div class="mb-4">
+                      <div class="d-flex">
+                        <div for="login-password" class="my-form-label px-1">Password</div>
+                        <div class="ms-auto fs-12 text-danger text-center" style="height: 20px;">{{login.passwordError}}</div>
+                      </div>
+                      
+                      <input
+                        name="loginPassword"
+                        type="password"
+                        class="form-control"
+                        id="login-password"
+                        ng-model="login.password"
+                      />
+                      
+                    </div>
+
+                    <div class="row mb-3">
+                      <div class="col-6 d-flex align-self-center">
+                        <input type="checkbox" checked="checked" />
+                        <div
+                          class="control ms-2 control--checkbox mb-0"
+                          style="
+                            font-size: 14px;
+                            font-family: Roboto, sans-serif;
+                          "
+                        >
+                          Remember me
+                        </div>
+                      </div>
+                      <div
+                        class="col-6 text-right"
+                        style="font-family: Roboto, sans-serif; font-size: 14px"
+                      >
+                        <a href="#" class="forgot-passlink-primary"
+                          >Forgot Password</a
+                        >
+                      </div>
+                    </div>
+                    <div class="text-center mt-4 mb-3">
+                      <button
+                        ng-click="loginFunc()"
+                        class="btn btn-primary"
+                        style="padding: 5px 100px; border-radius: 30px"
+                      >
+                        Login
+                      </button>
+                    </div>
+                    <div class="text-center fs-13">or sign in with</div>
+                    <div class="d-flex justify-content-center mt-4">
+                      <div
+                        class="mx-2"
+                        style="height: 40px; width: 40px; border-radius: 20px"
+                      >
+                        <img
+                          class="img-fluid"
+                          src="/assets/icons/facebook-login.png"
+                          alt=""
+                        />
+                      </div>
+                      <div
+                        class="mx-2"
+                        style="height: 40px; width: 40px; border-radius: 20px"
+                      >
+                        <img
+                          class="img-fluid"
+                          src="/assets/icons/google-login.png"
+                          alt=""
+                        />
+                      </div>
+                      <div
+                        class="mx-2"
+                        style="height: 40px; width: 40px; border-radius: 20px"
+                      >
+                        <img
+                          class="img-fluid"
+                          src="/assets/icons/github-login.png"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <div class="mt-4 text-center fs-13">
+                      Don't have an account?
+                      <a
+                        class="link-dark fw-bold swiper-button-signIn"
+                        style="text-decoration: none"
+                        >Sign up</a
+                      >
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="mx-5 my-3 mb-4">
+                  <form action="">
+                    <div
+                      class="fs-5 fw-medium text-center"
+                      style="font-family: Roboto, sans-serif"
+                    >
+                      Sign up to
+                      <span class="fs-3 fw-bold">DotnetJunior</span>
+                    </div>
+                    <div
+                      class="fs-13 text-center"
+                      style="font-family: Roboto, sans-serif"
+                    >
+                      We can help you manage your progress easier
+                    </div>
+                    <div class="mb-3 mt-3">
+                      <div class="d-flex">
+                        <div for="login-password" class="my-form-label px-1">Username</div>
+                        <div class="ms-auto fs-12 text-danger text-center" style="height: 20px;">{{signIn.userNameError}}</div>
+                      </div>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="signup-username"
+                        ng-model = "userNameSignIn"
+                      />
+                    </div>
+                    <div class="mb-3">
+                      <div class="d-flex">
+                        <div for="login-password" class="my-form-label px-1">Passwod</div>
+                        <div class="ms-auto fs-12 text-danger text-center" style="height: 20px;">{{signIn.passwordError}}</div>
+                      </div>
+                      <input
+                        type="password"
+                        class="form-control"
+                        id="signup-password"
+                        ng-model="passwordSignIn"
+                      />
+                    </div>
+                    <div class="mb-3">
+                      <div class="d-flex">
+                        <div for="login-password" class="my-form-label px-1">Re-Passwod</div>
+                        <div class="ms-auto fs-12 text-danger text-center" style="height: 20px;">{{signIn.rePasswordError}}</div>
+                      </div>
+                      <input
+                        type="password"
+                        class="form-control"
+                        id="signup-re-password"
+                        ng-model="rePasswordSignIn"
+                      />
+                    </div>
+                    <div class="mb-3">
+                      <div class="d-flex">
+                        <div for="login-password" class="my-form-label px-1">Email</div>
+                        <div class="ms-auto fs-12 text-danger text-center" style="height: 20px;">{{signIn.emailError}}</div>
+                      </div>
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="signup-email"
+                        ng-model="emailSignIn"
+                      />
+                    </div>
+                    <div class="mb-3 fs-12 d-flex align-self-center">
+                      <input type="checkbox" checked="checked" />
+                      <div
+                        class="control ms-2 control--checkbox mb-0"
+                        style="font-family: Roboto, sans-serif"
+                      >
+                        I accept the
+                        <a href="">Term of Service</a>
+                        and
+                        <a href="">Privacy Policy</a>
+                      </div>
+                    </div>
+                    <div class="text-center mt-4 mb-3">
+                      <button
+                        class="btn btn-primary"
+                        style="padding: 5px 100px; border-radius: 30px"
+                        ng-click="signInFunc()"
+                      >
+                        Create
+                      </button>
+                    </div>
+                    <div class="mt-4 text-center fs-13">
+                      Already have an account?
+                      <a
+                        class="link-dark fw-bold swiper-button-logIn"
+                        style="text-decoration: none"
+                        >Log in</a
+                      >
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

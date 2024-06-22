@@ -1,0 +1,1120 @@
+{
+  "courses": [
+    {
+      "id": "CS001",
+      "img": "1.png",
+      "owner": "conghau",
+      "releaseDate": "1/18/2023",
+      "view": 405,
+      "title": "Build the first Website with ASP.NET Core - Intermediate Level",
+      "descriptions": [
+        "Is your application running slower than expected when retrieving data from the database using Entity Framework Core?",
+        "Don't worry, we've got you covered! In this important course, we'll delve into the reasons behind the sluggish performance and, more importantly, explore effective solutions to boost your application's speed. Let's start the journey towards optimizing your application's performance right now!",
+        "Discovering that your application retrieves data from the database at a snail's pace can be frustrating. But fear not! Join our crucial course today to unravel the mysteries behind the slowdown. Learn immediate strategies to enhance your application's speed and efficiency. Let's transform your app into a high-performance powerhouse starting now!"
+      ],
+      "numOfLessons": 15,
+      "numOfVideos": 4,
+      "numOfAssignments": 6,
+      "about": "C#, Visual Studio",
+      "introduction": "Unlock the full potential of Entity Framework Core with our comprehensive Mastering course! Learn advanced concepts of Entity Framework Core and become an expert in database access with EF Core."
+    },
+    {
+      "id": "CS002",
+      "img": "2.png",
+      "owner": "admin",
+      "releaseDate": "2/2/2024",
+      "view": 204,
+      "title": "Advanced Topics in ASP.NET Core",
+      "descriptions": [
+        "Take your ASP.NET Core skills to the next level with our Advanced Topics course!",
+        "In this course, you'll explore advanced concepts and techniques in ASP.NET Core development. From performance optimization to security best practices, we cover it all. Elevate your web development skills and become a proficient ASP.NET Core developer. Enroll now and stay ahead in the world of web development!",
+        "Prerequisites: Basic understanding of ASP.NET Core and C# programming."
+      ],
+      "numOfLessons": 15,
+      "numOfVideos": 6,
+      "numOfAssignments": 6,
+      "about": "ASP.NET Core, C#",
+      "introduction": "Take your ASP.NET Core skills to the next level with our Advanced Topics course! Explore advanced concepts and techniques in ASP.NET Core development."
+    },
+    {
+      "id": "CS003",
+      "img": "3.png",
+      "owner": "admin",
+      "releaseDate": "12/15/2023",
+      "view": 514,
+      "title": "Mastering Entity Framework Core",
+      "descriptions": [
+        "Unlock the full potential of Entity Framework Core with our comprehensive Mastering course!",
+        "Learn advanced concepts of Entity Framework Core and become an expert in database access with EF Core. From database modeling to advanced querying, this course covers everything you need to know. Boost your application's data access performance and efficiency. Join now and take your EF Core skills to the next level!",
+        "Prerequisites: Basic knowledge of Entity Framework Core and C#."
+      ],
+      "numOfLessons": 20,
+      "numOfVideos": 10,
+      "numOfAssignments": 8,
+      "about": "Entity Framework Core, C#",
+      "introduction": "Unlock the full potential of Entity Framework Core with our comprehensive Mastering course! Learn advanced concepts of Entity Framework Core and become an expert in database access with EF Core."
+    },
+    {
+      "id": "CS004",
+      "img": "4.png",
+      "owner": "admin",
+      "releaseDate": "8/22/2023",
+      "view": 205,
+      "title": "Building Scalable Web Applications with Node.js",
+      "descriptions": [
+        "Explore the world of scalable web applications with our Node.js course!",
+        "In this course, you'll learn how to build high-performance, scalable web applications using Node.js. From asynchronous programming to creating RESTful APIs, we cover essential topics to help you become a proficient Node.js developer. Enroll now and master the art of building scalable web applications!",
+        "Prerequisites: Basic understanding of JavaScript."
+      ],
+      "numOfLessons": 17,
+      "numOfVideos": 10,
+      "numOfAssignments": 12,
+      "about": "Node.js, JavaScript",
+      "introduction": "Explore the world of scalable web applications with our Node.js course! Learn how to build high-performance, scalable web applications using Node.js."
+    },
+    {
+      "id": "CS005",
+      "img": "5.png",
+      "owner": "admin",
+      "releaseDate": "2/3/2020",
+      "view": 80,
+      "title": "Front-End Development with React",
+      "descriptions": [
+        "Dive into the world of modern front-end development with our React course!",
+        "Learn how to build interactive user interfaces and single-page applications with React. From component-based architecture to state management, this course covers the fundamentals of React development. Join now and enhance your front-end development skills with React!",
+        "Prerequisites: Basic knowledge of HTML, CSS, and JavaScript."
+      ],
+      "numOfLessons": 15,
+      "numOfVideos": 9,
+      "numOfAssignments": 4,
+      "about": "React, JavaScript",
+      "introduction": "Dive into the world of modern front-end development with our React course! Learn how to build interactive user interfaces and single-page applications with React."
+    },
+    {
+      "id": "CS006",
+      "img": "6.png",
+      "owner": "conghau",
+      "releaseDate": "12/12/2020",
+      "view": 22,
+      "title": "Introduction to Python Programming",
+      "descriptions": [
+        "Embark on your journey into the world of Python programming with our introductory course!",
+        "In this course, you'll learn the basics of Python programming, including syntax, data types, and control structures. Whether you're a beginner or want to strengthen your foundation, this course is the perfect starting point. Enroll now and kickstart your Python programming journey!",
+        "No prerequisites required."
+      ],
+      "numOfLessons": 10,
+      "numOfVideos": 7,
+      "numOfAssignments": 2,
+      "about": "Python",
+      "introduction": "Embark on your journey into the world of Python programming with our introductory course! Learn the basics of Python programming, including syntax, data types, and control structures."
+    },
+    {
+      "id": "CS007",
+      "img": "7.png",
+      "owner": "konghou",
+      "releaseDate": "1/1/2024",
+      "view": 20,
+      "title": "Data Science with R",
+      "descriptions": [
+        "Dive into the exciting field of data science with our R programming course!",
+        "In this course, you'll explore data analysis, visualization, and statistical modeling using the R programming language. Whether you're a data enthusiast or aspiring data scientist, this course provides a solid foundation. Enroll now and unlock the potential of data science with R!",
+        "Prerequisites: Basic knowledge of programming."
+      ],
+      "numOfLessons": 18,
+      "numOfVideos": 10,
+      "numOfAssignments": 15,
+      "about": "R, Data Science",
+      "introduction": "Dive into the exciting field of data science with our R programming course! Explore data analysis, visualization, and statistical modeling using the R programming language."
+    },
+    {
+      "id": "CS008",
+      "img": "8.png",
+      "owner": "konghou",
+      "releaseDate": "6/1/2023",
+      "view": 423,
+      "title": "Angular for Web Development",
+      "descriptions": [
+        "Master Angular and become a skilled web developer with our comprehensive course!",
+        "In this course, you'll delve into the world of Angular and learn how to build dynamic, responsive web applications. From component architecture to dependency injection, we cover the essential concepts to help you become proficient in Angular development. Enroll now and elevate your web development skills with Angular!",
+        "Prerequisites: Basic knowledge of HTML, CSS, and JavaScript."
+      ],
+      "numOfLessons": 20,
+      "numOfVideos": 12,
+      "numOfAssignments": 8,
+      "about": "Angular, TypeScript",
+      "introduction": "Master Angular and become a skilled web developer with our comprehensive course! Learn how to build dynamic, responsive web applications with Angular."
+    },
+    {
+      "id": "CS009",
+      "img": "9.png",
+      "owner": "admin",
+      "releaseDate": "2/20/2021",
+      "view": 230,
+      "title": "Java Programming Fundamentals",
+      "descriptions": [
+        "Learn the fundamentals of Java programming with our introductory course!",
+        "In this course, you'll explore the basics of Java, including syntax, data types, and object-oriented programming principles. Whether you're a beginner or want to strengthen your Java skills, this course is the perfect starting point. Enroll now and kickstart your Java programming journey!",
+        "No prerequisites required."
+      ],
+      "numOfLessons": 12,
+      "numOfVideos": 6,
+      "numOfAssignments": 4,
+      "about": "Java",
+      "introduction": "Learn the fundamentals of Java programming with our introductory course! Explore the basics of Java, including syntax, data types, and object-oriented programming principles."
+    },
+    {
+      "id": "CS010",
+      "img": "10.png",
+      "owner": "admin",
+      "releaseDate": "8/1/2021",
+      "view": 396,
+      "title": "Cloud Computing Essentials",
+      "descriptions": [
+        "Explore the essentials of cloud computing with our comprehensive course!",
+        "In this course, you'll learn the fundamental concepts of cloud computing, including virtualization, scalability, and cloud service models. Whether you're new to cloud computing or want to deepen your knowledge, this course is the perfect choice. Enroll now and unlock the potential of cloud computing!",
+        "Prerequisites: Basic understanding of computer networks."
+      ],
+      "numOfLessons": 15,
+      "numOfVideos": 8,
+      "numOfAssignments": 6,
+      "about": "Cloud Computing",
+      "introduction": "Explore the essentials of cloud computing with our comprehensive course! Learn fundamental concepts, including virtualization, scalability, and cloud service models."
+    },
+    {
+      "id": "CS011",
+      "img": "11.png",
+      "owner": "admin",
+      "releaseDate": "2/19/2024",
+      "view": 14,
+      "title": "Mobile App Development with Flutter",
+      "descriptions": [
+        "Dive into mobile app development with our Flutter course!",
+        "Learn how to build cross-platform mobile applications with Flutter. From widget-based UI development to state management, this course covers the essential concepts to help you become a proficient mobile app developer. Enroll now and embark on your journey into Flutter app development!",
+        "Prerequisites: Basic knowledge of Dart programming language."
+      ],
+      "numOfLessons": 18,
+      "numOfVideos": 10,
+      "numOfAssignments": 6,
+      "about": "Flutter, Dart",
+      "introduction": "Dive into mobile app development with our Flutter course! Learn how to build cross-platform mobile applications with Flutter."
+    },
+    {
+      "id": "CS012",
+      "img": "12.png",
+      "owner": "admin",
+      "releaseDate": "2/19/2024",
+      "view": 47,
+      "title": "Machine Learning Basics with Python",
+      "descriptions": [
+        "Explore the basics of machine learning with our Python course!",
+        "In this course, you'll delve into the fundamental concepts of machine learning, including supervised and unsupervised learning. Whether you're new to machine learning or want to deepen your understanding, this course is the perfect starting point. Enroll now and unlock the potential of machine learning with Python!",
+        "Prerequisites: Basic knowledge of Python programming."
+      ],
+      "numOfLessons": 15,
+      "numOfVideos": 8,
+      "numOfAssignments": 4,
+      "about": "Python, Machine Learning",
+      "introduction": "Explore the basics of machine learning with our Python course! Delve into fundamental concepts, including supervised and unsupervised learning."
+    },
+    {
+      "id": "CS013",
+      "img": "13.png",
+      "owner": "admin",
+      "releaseDate": "2/19/2024",
+      "view": 13,
+      "title": "Cybersecurity Fundamentals",
+      "descriptions": [
+        "Learn the fundamentals of cybersecurity with our introductory course!",
+        "In this course, you'll explore essential cybersecurity concepts, including cryptography, network security, and ethical hacking. Whether you're new to cybersecurity or want to deepen your knowledge, this course is the perfect choice. Enroll now and enhance your understanding of cybersecurity!",
+        "Prerequisites: Basic understanding of computer networks."
+      ],
+      "numOfLessons": 12,
+      "numOfVideos": 6,
+      "numOfAssignments": 4,
+      "about": "Cybersecurity",
+      "introduction": "Learn the fundamentals of cybersecurity with our introductory course! Explore essential concepts, including cryptography, network security, and ethical hacking."
+    },
+    {
+      "id": "CS014",
+      "img": "14.png",
+      "owner": "admin",
+      "releaseDate": "2/19/2024",
+      "view": 52,
+      "title": "Web Design Essentials",
+      "descriptions": [
+        "Explore the essentials of web design with our comprehensive course!",
+        "In this course, you'll learn the fundamental principles of web design, including layout, typography, and color theory. Whether you're a beginner or want to enhance your web design skills, this course is the perfect choice. Enroll now and unlock the potential of web design!",
+        "Prerequisites: Basic knowledge of HTML and CSS."
+      ],
+      "numOfLessons": 15,
+      "numOfVideos": 8,
+      "numOfAssignments": 6,
+      "about": "Web Design",
+      "introduction": "Explore the essentials of web design with our comprehensive course! Learn fundamental principles, including layout, typography, and color theory."
+    },
+    {
+      "id": "CS015",
+      "img": "14.png",
+      "owner": "konghou",
+      "releaseDate": "3/1/2024",
+      "view": 221,
+      "title": "Web Design Essentials",
+      "descriptions": [
+        "Explore the essentials of web design with our comprehensive course!",
+        "In this course, you'll learn the fundamental principles of web design, including layout, typography, and color theory. Whether you're a beginner or want to enhance your web design skills, this course is the perfect choice. Enroll now and unlock the potential of web design!",
+        "Prerequisites: Basic knowledge of HTML and CSS."
+      ],
+      "numOfLessons": 15,
+      "numOfVideos": 8,
+      "numOfAssignments": 6,
+      "about": "Web Design",
+      "introduction": "Explore the essentials of web design with our comprehensive course! Learn fundamental principles, including layout, typography, and color theory."
+    },
+    {
+      "id": "CS016",
+      "img": "16.png",
+      "owner": "conghau",
+      "releaseDate": "9/8/2024",
+      "view": 98,
+      "title": "Hello World C# - Newbie Course",
+      "descriptions": [
+        "Create the first application using C#. Learn how to use basic C# syntax",
+        "In this course, you'll slowly learn how to code with C# language. From the basic app - hellow wold, to simple Caculator on console.",
+        "Nothing needed. Just ready and you will be able to do it!"
+      ],
+      "numOfLessons": 12,
+      "numOfVideos": 5,
+      "numOfAssignments": 6,
+      "about": "C#, .Net Framework",
+      "introduction": "We are here to help you. Easy to learn. You will find a happy way to starting you coding progress. Stop reading, start nowww!"
+    },
+    {
+      "id": "CS017",
+      "img": "17.png",
+      "owner": "admin",
+      "releaseDate": "7/7/2021",
+      "view": 40,
+      "title": "Hello World C# - Advanced Course",
+      "descriptions": [
+        "Create the advanced application using C#. Trust me, this is what you need now",
+        "In this course, you'll slowly learn how to code with anvanced C# language. About Generic, Lambda, Delegate,..?",
+        "Need to has understanding of basic C#. You can join the basic C# course to improve your skill first!"
+      ],
+      "numOfLessons": 10,
+      "numOfVideos": 4,
+      "numOfAssignments": 7,
+      "about": "C#, .Net Framework",
+      "introduction": "Boring with console, right?. You will find a happy way to starting you coding progress. Stop reading, start nowww!"
+    },
+    {
+      "id": "CS018",
+      "img": "1.png",
+      "owner": "admin",
+      "releaseDate": "6/2/2022",
+      "view": 24,
+      "title": "Build the first Website with ASP.NET Core - Intermediate Level",
+      "descriptions": [
+        "Is your application running slower than expected when retrieving data from the database using Entity Framework Core?",
+        "Don't worry, we've got you covered! In this important course, we'll delve into the reasons behind the sluggish performance and, more importantly, explore effective solutions to boost your application's speed. Let's start the journey towards optimizing your application's performance right now!",
+        "Discovering that your application retrieves data from the database at a snail's pace can be frustrating. But fear not! Join our crucial course today to unravel the mysteries behind the slowdown. Learn immediate strategies to enhance your application's speed and efficiency. Let's transform your app into a high-performance powerhouse starting now!"
+      ],
+      "numOfLessons": 12,
+      "numOfVideos": 6,
+      "numOfAssignments": 4,
+      "about": "C#, Visual Studio",
+      "introduction": "Unlock the full potential of Entity Framework Core with our comprehensive Mastering course! Learn advanced concepts of Entity Framework Core and become an expert in database access with EF Core."
+    },
+    {
+      "id": "CS019",
+      "img": "2.png",
+      "owner": "konghou",
+      "releaseDate": "3/5/2020",
+      "view": 24,
+      "title": "Advanced Topics in ASP.NET Core",
+      "descriptions": [
+        "Take your ASP.NET Core skills to the next level with our Advanced Topics course!",
+        "In this course, you'll explore advanced concepts and techniques in ASP.NET Core development. From performance optimization to security best practices, we cover it all. Elevate your web development skills and become a proficient ASP.NET Core developer. Enroll now and stay ahead in the world of web development!",
+        "Prerequisites: Basic understanding of ASP.NET Core and C# programming."
+      ],
+      "numOfLessons": 15,
+      "numOfVideos": 6,
+      "numOfAssignments": 8,
+      "about": "ASP.NET Core, C#",
+      "introduction": "Take your ASP.NET Core skills to the next level with our Advanced Topics course! Explore advanced concepts and techniques in ASP.NET Core development."
+    },
+    {
+      "id": "CS020",
+      "img": "3.png",
+      "owner": "admin",
+      "releaseDate": "1/1/2022",
+      "view": 21,
+      "title": "Mastering Entity Framework Core",
+      "descriptions": [
+        "Unlock the full potential of Entity Framework Core with our comprehensive Mastering course!",
+        "Learn advanced concepts of Entity Framework Core and become an expert in database access with EF Core. From database modeling to advanced querying, this course covers everything you need to know. Boost your application's data access performance and efficiency. Join now and take your EF Core skills to the next level!",
+        "Prerequisites: Basic knowledge of Entity Framework Core and C#."
+      ],
+      "numOfLessons": 12,
+      "numOfVideos": 8,
+      "numOfAssignments": 2,
+      "about": "Entity Framework Core, C#",
+      "introduction": "Unlock the full potential of Entity Framework Core with our comprehensive Mastering course! Learn advanced concepts of Entity Framework Core and become an expert in database access with EF Core."
+    },
+    {
+      "id": "CS021",
+      "img": "4.png",
+      "owner": "admin",
+      "releaseDate": "7/1/2019",
+      "view": 24,
+      "title": "Building Scalable Web Applications with Node.js",
+      "descriptions": [
+        "Explore the world of scalable web applications with our Node.js course!",
+        "In this course, you'll learn how to build high-performance, scalable web applications using Node.js. From asynchronous programming to creating RESTful APIs, we cover essential topics to help you become a proficient Node.js developer. Enroll now and master the art of building scalable web applications!",
+        "Prerequisites: Basic understanding of JavaScript."
+      ],
+      "numOfLessons": 20,
+      "numOfVideos": 10,
+      "numOfAssignments": 6,
+      "about": "Node.js, JavaScript",
+      "introduction": "Explore the world of scalable web applications with our Node.js course! Learn how to build high-performance, scalable web applications using Node.js."
+    },
+    {
+      "id": "CS022",
+      "img": "5.png",
+      "owner": "admin",
+      "releaseDate": "2/19/2023",
+      "view": 187,
+      "title": "Front-End Development with React",
+      "descriptions": [
+        "Dive into the world of modern front-end development with our React course!",
+        "Learn how to build interactive user interfaces and single-page applications with React. From component-based architecture to state management, this course covers the fundamentals of React development. Join now and enhance your front-end development skills with React!",
+        "Prerequisites: Basic knowledge of HTML, CSS, and JavaScript."
+      ],
+      "numOfLessons": 15,
+      "numOfVideos": 8,
+      "numOfAssignments": 4,
+      "about": "React, JavaScript",
+      "introduction": "Dive into the world of modern front-end development with our React course! Learn how to build interactive user interfaces and single-page applications with React."
+    },
+    {
+      "id": "CS023",
+      "img": "6.png",
+      "owner": "admin",
+      "releaseDate": "5/5/2020",
+      "view": 542,
+      "title": "Introduction to Python Programming",
+      "descriptions": [
+        "Embark on your journey into the world of Python programming with our introductory course!",
+        "In this course, you'll learn the basics of Python programming, including syntax, data types, and control structures. Whether you're a beginner or want to strengthen your foundation, this course is the perfect starting point. Enroll now and kickstart your Python programming journey!",
+        "No prerequisites required."
+      ],
+      "numOfLessons": 10,
+      "numOfVideos": 5,
+      "numOfAssignments": 2,
+      "about": "Python",
+      "introduction": "Embark on your journey into the world of Python programming with our introductory course! Learn the basics of Python programming, including syntax, data types, and control structures."
+    },
+    {
+      "id": "CS024",
+      "img": "7.png",
+      "owner": "admin",
+      "releaseDate": "6/19/2019",
+      "view": 228,
+      "title": "Data Science with R",
+      "descriptions": [
+        "Dive into the exciting field of data science with our R programming course!",
+        "In this course, you'll explore data analysis, visualization, and statistical modeling using the R programming language. Whether you're a data enthusiast or aspiring data scientist, this course provides a solid foundation. Enroll now and unlock the potential of data science with R!",
+        "Prerequisites: Basic knowledge of programming."
+      ],
+      "numOfLessons": 18,
+      "numOfVideos": 10,
+      "numOfAssignments": 6,
+      "about": "R, Data Science",
+      "introduction": "Dive into the exciting field of data science with our R programming course! Explore data analysis, visualization, and statistical modeling using the R programming language."
+    },
+    {
+      "id": "CS025",
+      "img": "8.png",
+      "owner": "admin",
+      "releaseDate": "4/26/2023",
+      "view": 277,
+      "title": "Angular for Web Development",
+      "descriptions": [
+        "Master Angular and become a skilled web developer with our comprehensive course!",
+        "In this course, you'll delve into the world of Angular and learn how to build dynamic, responsive web applications. From component architecture to dependency injection, we cover the essential concepts to help you become proficient in Angular development. Enroll now and elevate your web development skills with Angular!",
+        "Prerequisites: Basic knowledge of HTML, CSS, and JavaScript."
+      ],
+      "numOfLessons": 20,
+      "numOfVideos": 12,
+      "numOfAssignments": 8,
+      "about": "Angular, TypeScript",
+      "introduction": "Master Angular and become a skilled web developer with our comprehensive course! Learn how to build dynamic, responsive web applications with Angular."
+    },
+    {
+      "id": "CS026",
+      "img": "9.png",
+      "owner": "konghou",
+      "releaseDate": "4/30/2020",
+      "view": 565,
+      "title": "Java Programming Fundamentals",
+      "descriptions": [
+        "Learn the fundamentals of Java programming with our introductory course!",
+        "In this course, you'll explore the basics of Java, including syntax, data types, and object-oriented programming principles. Whether you're a beginner or want to strengthen your Java skills, this course is the perfect starting point. Enroll now and kickstart your Java programming journey!",
+        "No prerequisites required."
+      ],
+      "numOfLessons": 14,
+      "numOfVideos": 5,
+      "numOfAssignments": 10,
+      "about": "Java",
+      "introduction": "Learn the fundamentals of Java programming with our introductory course! Explore the basics of Java, including syntax, data types, and object-oriented programming principles."
+    },
+    {
+      "id": "CS027",
+      "img": "10.png",
+      "owner": "admin",
+      "releaseDate": "2/27/2022",
+      "view": 90,
+      "title": "Cloud Computing Essentials",
+      "descriptions": [
+        "Explore the essentials of cloud computing with our comprehensive course!",
+        "In this course, you'll learn the fundamental concepts of cloud computing, including virtualization, scalability, and cloud service models. Whether you're new to cloud computing or want to deepen your knowledge, this course is the perfect choice. Enroll now and unlock the potential of cloud computing!",
+        "Prerequisites: Basic understanding of computer networks."
+      ],
+      "numOfLessons": 10,
+      "numOfVideos": 8,
+      "numOfAssignments": 10,
+      "about": "Cloud Computing",
+      "introduction": "Explore the essentials of cloud computing with our comprehensive course! Learn fundamental concepts, including virtualization, scalability, and cloud service models."
+    },
+    {
+      "id": "CS028",
+      "img": "11.png",
+      "owner": "admin",
+      "releaseDate": "10/30/2023",
+      "view": 257,
+      "title": "Mobile App Development with Flutter",
+      "descriptions": [
+        "Dive into mobile app development with our Flutter course!",
+        "Learn how to build cross-platform mobile applications with Flutter. From widget-based UI development to state management, this course covers the essential concepts to help you become a proficient mobile app developer. Enroll now and embark on your journey into Flutter app development!",
+        "Prerequisites: Basic knowledge of Dart programming language."
+      ],
+      "numOfLessons": 15,
+      "numOfVideos": 8,
+      "numOfAssignments": 5,
+      "about": "Flutter, Dart",
+      "introduction": "Dive into mobile app development with our Flutter course! Learn how to build cross-platform mobile applications with Flutter."
+    },
+    {
+      "id": "CS029",
+      "img": "12.png",
+      "owner": "admin",
+      "releaseDate": "10/17/2023",
+      "view": 100,
+      "title": "Machine Learning Basics with Python",
+      "descriptions": [
+        "Explore the basics of machine learning with our Python course!",
+        "In this course, you'll delve into the fundamental concepts of machine learning, including supervised and unsupervised learning. Whether you're new to machine learning or want to deepen your understanding, this course is the perfect starting point. Enroll now and unlock the potential of machine learning with Python!",
+        "Prerequisites: Basic knowledge of Python programming."
+      ],
+      "numOfLessons": 14,
+      "numOfVideos": 8,
+      "numOfAssignments": 6,
+      "about": "Python, Machine Learning",
+      "introduction": "Explore the basics of machine learning with our Python course! Delve into fundamental concepts, including supervised and unsupervised learning."
+    },
+    {
+      "id": "CS030",
+      "img": "13.png",
+      "owner": "konghou",
+      "releaseDate": "8/30/2023",
+      "view": 179,
+      "title": "Cybersecurity Fundamentals",
+      "descriptions": [
+        "Learn the fundamentals of cybersecurity with our introductory course!",
+        "In this course, you'll explore essential cybersecurity concepts, including cryptography, network security, and ethical hacking. Whether you're new to cybersecurity or want to deepen your knowledge, this course is the perfect choice. Enroll now and enhance your understanding of cybersecurity!",
+        "Prerequisites: Basic understanding of computer networks."
+      ],
+      "numOfLessons": 10,
+      "numOfVideos": 6,
+      "numOfAssignments": 7,
+      "about": "Cybersecurity",
+      "introduction": "Learn the fundamentals of cybersecurity with our introductory course! Explore essential concepts, including cryptography, network security, and ethical hacking."
+    },
+    {
+      "id": "CS031",
+      "img": "14.png",
+      "owner": "conghau",
+      "releaseDate": "12/12/2019",
+      "view": 523,
+      "title": "Web Design Essentials",
+      "descriptions": [
+        "Explore the essentials of web design with our comprehensive course!",
+        "In this course, you'll learn the fundamental principles of web design, including layout, typography, and color theory. Whether you're a beginner or want to enhance your web design skills, this course is the perfect choice. Enroll now and unlock the potential of web design!",
+        "Prerequisites: Basic knowledge of HTML and CSS."
+      ],
+      "numOfLessons": 7,
+      "numOfVideos": 8,
+      "numOfAssignments": 10,
+      "about": "Web Design",
+      "introduction": "Explore the essentials of web design with our comprehensive course! Learn fundamental principles, including layout, typography, and color theory."
+    },
+    {
+      "id": "CS032",
+      "img": "15.png",
+      "owner": "konghou",
+      "releaseDate": "1/24/2023",
+      "view": 245,
+      "title": "JavaScript Frameworks: React vs Angular vs Vue",
+      "descriptions": [
+        "Compare and explore JavaScript frameworks with our in-depth course!",
+        "In this course, you'll compare and explore three popular JavaScript frameworks: React, Angular, and Vue. From component-based architecture to state management, we cover the strengths and weaknesses of each framework. Enroll now and make informed decisions about JavaScript frameworks!",
+        "Prerequisites: Basic knowledge of JavaScript."
+      ],
+      "numOfLessons": 10,
+      "numOfVideos": 10,
+      "numOfAssignments": 10,
+      "about": "JavaScript, React, Angular, Vue",
+      "introduction": "Compare and explore JavaScript frameworks with our in-depth course! Learn about React, Angular, and Vue, and make informed decisions about JavaScript frameworks."
+    },
+    {
+      "id": "CS033",
+      "img": "16.png",
+      "owner": "admin",
+      "releaseDate": "3/3/2023",
+      "view": 333,
+      "title": "Hello World C# - Newbie Course",
+      "descriptions": [
+        "Create the first application using C#. Learn how to use basic C# syntax",
+        "In this course, you'll slowly learn how to code with C# language. From the basic app - hellow wold, to simple Caculator on console.",
+        "Nothing needed. Just ready and you will be able to do it!"
+      ],
+      "numOfLessons": 13,
+      "numOfVideos": 3,
+      "numOfAssignments": 13,
+      "about": "C#, .Net Framework",
+      "introduction": "We are here to help you. Easy to learn. You will find a happy way to starting you coding progress. Stop reading, start nowww!"
+    },
+    {
+      "id": "CS034",
+      "img": "17.png",
+      "owner": "admin",
+      "releaseDate": "9/6/2021",
+      "view": 698,
+      "title": "Hello World C# - Advanced Course",
+      "descriptions": [
+        "Create the advanced application using C#. Trust me, this is what you need now",
+        "In this course, you'll slowly learn how to code with anvanced C# language. About Generic, Lambda, Delegate,..?",
+        "Need to has understanding of basic C#. You can join the basic C# course to improve your skill first!"
+      ],
+      "numOfLessons": 16,
+      "numOfVideos": 6,
+      "numOfAssignments": 7,
+      "about": "C#, .Net Framework",
+      "introduction": "Boring with console, right?. You will find a happy way to starting you coding progress. Stop reading, start nowww!"
+    },
+    {
+      "id": "CS035",
+      "img": "1.png",
+      "owner": "admin",
+      "releaseDate": "2/17/2024",
+      "view": 278,
+      "title": "Build the first Website with ASP.NET Core - Intermediate Level",
+      "descriptions": [
+        "Is your application running slower than expected when retrieving data from the database using Entity Framework Core?",
+        "Don't worry, we've got you covered! In this important course, we'll delve into the reasons behind the sluggish performance and, more importantly, explore effective solutions to boost your application's speed. Let's start the journey towards optimizing your application's performance right now!",
+        "Discovering that your application retrieves data from the database at a snail's pace can be frustrating. But fear not! Join our crucial course today to unravel the mysteries behind the slowdown. Learn immediate strategies to enhance your application's speed and efficiency. Let's transform your app into a high-performance powerhouse starting now!"
+      ],
+      "numOfLessons": 17,
+      "numOfVideos": 5,
+      "numOfAssignments": 12,
+      "about": "C#, Visual Studio",
+      "introduction": "Unlock the full potential of Entity Framework Core with our comprehensive Mastering course! Learn advanced concepts of Entity Framework Core and become an expert in database access with EF Core."
+    },
+    {
+      "id": "CS036",
+      "img": "2.png",
+      "owner": "admin",
+      "releaseDate": "2/19/2024",
+      "view": 19,
+      "title": "Advanced Topics in ASP.NET Core",
+      "descriptions": [
+        "Take your ASP.NET Core skills to the next level with our Advanced Topics course!",
+        "In this course, you'll explore advanced concepts and techniques in ASP.NET Core development. From performance optimization to security best practices, we cover it all. Elevate your web development skills and become a proficient ASP.NET Core developer. Enroll now and stay ahead in the world of web development!",
+        "Prerequisites: Basic understanding of ASP.NET Core and C# programming."
+      ],
+      "numOfLessons": 15,
+      "numOfVideos": 6,
+      "numOfAssignments": 6,
+      "about": "ASP.NET Core, C#",
+      "introduction": "Take your ASP.NET Core skills to the next level with our Advanced Topics course! Explore advanced concepts and techniques in ASP.NET Core development."
+    },
+    {
+      "id": "CS037",
+      "img": "3.png",
+      "owner": "admin",
+      "releaseDate": "2/19/2024",
+      "view": 21,
+      "title": "Mastering Entity Framework Core",
+      "descriptions": [
+        "Unlock the full potential of Entity Framework Core with our comprehensive Mastering course!",
+        "Learn advanced concepts of Entity Framework Core and become an expert in database access with EF Core. From database modeling to advanced querying, this course covers everything you need to know. Boost your application's data access performance and efficiency. Join now and take your EF Core skills to the next level!",
+        "Prerequisites: Basic knowledge of Entity Framework Core and C#."
+      ],
+      "numOfLessons": 18,
+      "numOfVideos": 8,
+      "numOfAssignments": 8,
+      "about": "Entity Framework Core, C#",
+      "introduction": "Unlock the full potential of Entity Framework Core with our comprehensive Mastering course! Learn advanced concepts of Entity Framework Core and become an expert in database access with EF Core."
+    },
+    {
+      "id": "CS038",
+      "img": "4.png",
+      "owner": "admin",
+      "releaseDate": "2/19/2024",
+      "view": 8,
+      "title": "Building Scalable Web Applications with Node.js",
+      "descriptions": [
+        "Explore the world of scalable web applications with our Node.js course!",
+        "In this course, you'll learn how to build high-performance, scalable web applications using Node.js. From asynchronous programming to creating RESTful APIs, we cover essential topics to help you become a proficient Node.js developer. Enroll now and master the art of building scalable web applications!",
+        "Prerequisites: Basic understanding of JavaScript."
+      ],
+      "numOfLessons": 20,
+      "numOfVideos": 10,
+      "numOfAssignments": 6,
+      "about": "Node.js, JavaScript",
+      "introduction": "Explore the world of scalable web applications with our Node.js course! Learn how to build high-performance, scalable web applications using Node.js."
+    },
+    {
+      "id": "CS039",
+      "img": "5.png",
+      "owner": "admin",
+      "releaseDate": "2/19/2024",
+      "view": 21,
+      "title": "Front-End Development with React",
+      "descriptions": [
+        "Dive into the world of modern front-end development with our React course!",
+        "Learn how to build interactive user interfaces and single-page applications with React. From component-based architecture to state management, this course covers the fundamentals of React development. Join now and enhance your front-end development skills with React!",
+        "Prerequisites: Basic knowledge of HTML, CSS, and JavaScript."
+      ],
+      "numOfLessons": 15,
+      "numOfVideos": 8,
+      "numOfAssignments": 4,
+      "about": "React, JavaScript",
+      "introduction": "Dive into the world of modern front-end development with our React course! Learn how to build interactive user interfaces and single-page applications with React."
+    },
+    {
+      "id": "CS040",
+      "img": "6.png",
+      "owner": "admin",
+      "releaseDate": "2/19/2024",
+      "view": 22,
+      "title": "Introduction to Python Programming",
+      "descriptions": [
+        "Embark on your journey into the world of Python programming with our introductory course!",
+        "In this course, you'll learn the basics of Python programming, including syntax, data types, and control structures. Whether you're a beginner or want to strengthen your foundation, this course is the perfect starting point. Enroll now and kickstart your Python programming journey!",
+        "No prerequisites required."
+      ],
+      "numOfLessons": 10,
+      "numOfVideos": 5,
+      "numOfAssignments": 2,
+      "about": "Python",
+      "introduction": "Embark on your journey into the world of Python programming with our introductory course! Learn the basics of Python programming, including syntax, data types, and control structures."
+    },
+    {
+      "id": "CS041",
+      "img": "7.png",
+      "owner": "admin",
+      "releaseDate": "2/19/2024",
+      "view": 19,
+      "title": "Data Science with R",
+      "descriptions": [
+        "Dive into the exciting field of data science with our R programming course!",
+        "In this course, you'll explore data analysis, visualization, and statistical modeling using the R programming language. Whether you're a data enthusiast or aspiring data scientist, this course provides a solid foundation. Enroll now and unlock the potential of data science with R!",
+        "Prerequisites: Basic knowledge of programming."
+      ],
+      "numOfLessons": 18,
+      "numOfVideos": 10,
+      "numOfAssignments": 6,
+      "about": "R, Data Science",
+      "introduction": "Dive into the exciting field of data science with our R programming course! Explore data analysis, visualization, and statistical modeling using the R programming language."
+    },
+    {
+      "id": "CS042",
+      "img": "8.png",
+      "owner": "admin",
+      "releaseDate": "2/19/2024",
+      "view": 17,
+      "title": "Angular for Web Development",
+      "descriptions": [
+        "Master Angular and become a skilled web developer with our comprehensive course!",
+        "In this course, you'll delve into the world of Angular and learn how to build dynamic, responsive web applications. From component architecture to dependency injection, we cover the essential concepts to help you become proficient in Angular development. Enroll now and elevate your web development skills with Angular!",
+        "Prerequisites: Basic knowledge of HTML, CSS, and JavaScript."
+      ],
+      "numOfLessons": 20,
+      "numOfVideos": 12,
+      "numOfAssignments": 8,
+      "about": "Angular, TypeScript",
+      "introduction": "Master Angular and become a skilled web developer with our comprehensive course! Learn how to build dynamic, responsive web applications with Angular."
+    },
+    {
+      "id": "CS043",
+      "img": "9.png",
+      "owner": "admin",
+      "releaseDate": "2/19/2024",
+      "view": 16,
+      "title": "Java Programming Fundamentals",
+      "descriptions": [
+        "Learn the fundamentals of Java programming with our introductory course!",
+        "In this course, you'll explore the basics of Java, including syntax, data types, and object-oriented programming principles. Whether you're a beginner or want to strengthen your Java skills, this course is the perfect starting point. Enroll now and kickstart your Java programming journey!",
+        "No prerequisites required."
+      ],
+      "numOfLessons": 12,
+      "numOfVideos": 6,
+      "numOfAssignments": 4,
+      "about": "Java",
+      "introduction": "Learn the fundamentals of Java programming with our introductory course! Explore the basics of Java, including syntax, data types, and object-oriented programming principles."
+    },
+    {
+      "id": "CS044",
+      "img": "10.png",
+      "owner": "admin",
+      "releaseDate": "2/19/2024",
+      "view": 37,
+      "title": "Cloud Computing Essentials",
+      "descriptions": [
+        "Explore the essentials of cloud computing with our comprehensive course!",
+        "In this course, you'll learn the fundamental concepts of cloud computing, including virtualization, scalability, and cloud service models. Whether you're new to cloud computing or want to deepen your knowledge, this course is the perfect choice. Enroll now and unlock the potential of cloud computing!",
+        "Prerequisites: Basic understanding of computer networks."
+      ],
+      "numOfLessons": 15,
+      "numOfVideos": 8,
+      "numOfAssignments": 6,
+      "about": "Cloud Computing",
+      "introduction": "Explore the essentials of cloud computing with our comprehensive course! Learn fundamental concepts, including virtualization, scalability, and cloud service models."
+    },
+    {
+      "id": "CS045",
+      "img": "11.png",
+      "owner": "admin",
+      "releaseDate": "2/19/2024",
+      "view": 12,
+      "title": "Mobile App Development with Flutter",
+      "descriptions": [
+        "Dive into mobile app development with our Flutter course!",
+        "Learn how to build cross-platform mobile applications with Flutter. From widget-based UI development to state management, this course covers the essential concepts to help you become a proficient mobile app developer. Enroll now and embark on your journey into Flutter app development!",
+        "Prerequisites: Basic knowledge of Dart programming language."
+      ],
+      "numOfLessons": 18,
+      "numOfVideos": 10,
+      "numOfAssignments": 6,
+      "about": "Flutter, Dart",
+      "introduction": "Dive into mobile app development with our Flutter course! Learn how to build cross-platform mobile applications with Flutter."
+    },
+    {
+      "id": "CS046",
+      "img": "12.png",
+      "owner": "admin",
+      "releaseDate": "2/19/2024",
+      "view": 42,
+      "title": "Machine Learning Basics with Python",
+      "descriptions": [
+        "Explore the basics of machine learning with our Python course!",
+        "In this course, you'll delve into the fundamental concepts of machine learning, including supervised and unsupervised learning. Whether you're new to machine learning or want to deepen your understanding, this course is the perfect starting point. Enroll now and unlock the potential of machine learning with Python!",
+        "Prerequisites: Basic knowledge of Python programming."
+      ],
+      "numOfLessons": 15,
+      "numOfVideos": 8,
+      "numOfAssignments": 4,
+      "about": "Python, Machine Learning",
+      "introduction": "Explore the basics of machine learning with our Python course! Delve into fundamental concepts, including supervised and unsupervised learning."
+    },
+    {
+      "id": "CS047",
+      "img": "13.png",
+      "owner": "admin",
+      "releaseDate": "2/19/2024",
+      "view": 13,
+      "title": "Cybersecurity Fundamentals",
+      "descriptions": [
+        "Learn the fundamentals of cybersecurity with our introductory course!",
+        "In this course, you'll explore essential cybersecurity concepts, including cryptography, network security, and ethical hacking. Whether you're new to cybersecurity or want to deepen your knowledge, this course is the perfect choice. Enroll now and enhance your understanding of cybersecurity!",
+        "Prerequisites: Basic understanding of computer networks."
+      ],
+      "numOfLessons": 12,
+      "numOfVideos": 6,
+      "numOfAssignments": 4,
+      "about": "Cybersecurity",
+      "introduction": "Learn the fundamentals of cybersecurity with our introductory course! Explore essential concepts, including cryptography, network security, and ethical hacking."
+    },
+    {
+      "id": "CS048",
+      "img": "14.png",
+      "owner": "admin",
+      "releaseDate": "2/19/2024",
+      "view": 51,
+      "title": "Web Design Essentials",
+      "descriptions": [
+        "Explore the essentials of web design with our comprehensive course!",
+        "In this course, you'll learn the fundamental principles of web design, including layout, typography, and color theory. Whether you're a beginner or want to enhance your web design skills, this course is the perfect choice. Enroll now and unlock the potential of web design!",
+        "Prerequisites: Basic knowledge of HTML and CSS."
+      ],
+      "numOfLessons": 15,
+      "numOfVideos": 8,
+      "numOfAssignments": 6,
+      "about": "Web Design",
+      "introduction": "Explore the essentials of web design with our comprehensive course! Learn fundamental principles, including layout, typography, and color theory."
+    },
+    {
+      "id": "CS049",
+      "img": "15.png",
+      "owner": "admin",
+      "releaseDate": "2/19/2024",
+      "view": 117,
+      "title": "JavaScript Frameworks: React vs Angular vs Vue",
+      "descriptions": [
+        "Compare and explore JavaScript frameworks with our in-depth course!",
+        "In this course, you'll compare and explore three popular JavaScript frameworks: React, Angular, and Vue. From component-based architecture to state management, we cover the strengths and weaknesses of each framework. Enroll now and make informed decisions about JavaScript frameworks!",
+        "Prerequisites: Basic knowledge of JavaScript."
+      ],
+      "numOfLessons": 18,
+      "numOfVideos": 10,
+      "numOfAssignments": 6,
+      "about": "JavaScript, React, Angular, Vue",
+      "introduction": "Compare and explore JavaScript frameworks with our in-depth course! Learn about React, Angular, and Vue, and make informed decisions about JavaScript frameworks."
+    },
+    {
+      "id": "CS050",
+      "img": "16.png",
+      "owner": "admin",
+      "releaseDate": "2/19/2024",
+      "view": 35,
+      "title": "Hello World C# - Newbie Course",
+      "descriptions": [
+        "Create the first application using C#. Learn how to use basic C# syntax",
+        "In this course, you'll slowly learn how to code with C# language. From the basic app - hellow wold, to simple Caculator on console.",
+        "Nothing needed. Just ready and you will be able to do it!"
+      ],
+      "numOfLessons": 12,
+      "numOfVideos": 5,
+      "numOfAssignments": 7,
+      "about": "C#, .Net Framework",
+      "introduction": "We are here to help you. Easy to learn. You will find a happy way to starting you coding progress. Stop reading, start nowww!"
+    },
+    {
+      "id": "CS051",
+      "img": "17.png",
+      "owner": "admin",
+      "releaseDate": "2/19/2024",
+      "view": 39,
+      "title": "Hello World C# - Advanced Course",
+      "descriptions": [
+        "Create the advanced application using C#. Trust me, this is what you need now",
+        "In this course, you'll slowly learn how to code with anvanced C# language. About Generic, Lambda, Delegate,..?",
+        "Need to has understanding of basic C#. You can join the basic C# course to improve your skill first!"
+      ],
+      "numOfLessons": 10,
+      "numOfVideos": 7,
+      "numOfAssignments": 7,
+      "about": "C#, .Net Framework",
+      "introduction": "Boring with console, right?. You will find a happy way to starting you coding progress. Stop reading, start nowww!"
+    },
+    {
+      "id": "CS052",
+      "img": "1.png",
+      "owner": "admin",
+      "releaseDate": "2/19/2024",
+      "view": 24,
+      "title": "Build the first Website with ASP.NET Core - Intermediate Level",
+      "descriptions": [
+        "Is your application running slower than expected when retrieving data from the database using Entity Framework Core?",
+        "Don't worry, we've got you covered! In this important course, we'll delve into the reasons behind the sluggish performance and, more importantly, explore effective solutions to boost your application's speed. Let's start the journey towards optimizing your application's performance right now!",
+        "Discovering that your application retrieves data from the database at a snail's pace can be frustrating. But fear not! Join our crucial course today to unravel the mysteries behind the slowdown. Learn immediate strategies to enhance your application's speed and efficiency. Let's transform your app into a high-performance powerhouse starting now!"
+      ],
+      "numOfLessons": 12,
+      "numOfVideos": 4,
+      "numOfAssignments": 4,
+      "about": "C#, Visual Studio",
+      "introduction": "Unlock the full potential of Entity Framework Core with our comprehensive Mastering course! Learn advanced concepts of Entity Framework Core and become an expert in database access with EF Core."
+    },
+    {
+      "id": "CS053",
+      "img": "2.png",
+      "owner": "admin",
+      "releaseDate": "2/19/2024",
+      "view": 19,
+      "title": "Advanced Topics in ASP.NET Core",
+      "descriptions": [
+        "Take your ASP.NET Core skills to the next level with our Advanced Topics course!",
+        "In this course, you'll explore advanced concepts and techniques in ASP.NET Core development. From performance optimization to security best practices, we cover it all. Elevate your web development skills and become a proficient ASP.NET Core developer. Enroll now and stay ahead in the world of web development!",
+        "Prerequisites: Basic understanding of ASP.NET Core and C# programming."
+      ],
+      "numOfLessons": 15,
+      "numOfVideos": 6,
+      "numOfAssignments": 6,
+      "about": "ASP.NET Core, C#",
+      "introduction": "Take your ASP.NET Core skills to the next level with our Advanced Topics course! Explore advanced concepts and techniques in ASP.NET Core development."
+    },
+    {
+      "id": "CS054",
+      "img": "3.png",
+      "owner": "admin",
+      "releaseDate": "2/19/2024",
+      "view": 21,
+      "title": "Mastering Entity Framework Core",
+      "descriptions": [
+        "Unlock the full potential of Entity Framework Core with our comprehensive Mastering course!",
+        "Learn advanced concepts of Entity Framework Core and become an expert in database access with EF Core. From database modeling to advanced querying, this course covers everything you need to know. Boost your application's data access performance and efficiency. Join now and take your EF Core skills to the next level!",
+        "Prerequisites: Basic knowledge of Entity Framework Core and C#."
+      ],
+      "numOfLessons": 18,
+      "numOfVideos": 8,
+      "numOfAssignments": 8,
+      "about": "Entity Framework Core, C#",
+      "introduction": "Unlock the full potential of Entity Framework Core with our comprehensive Mastering course! Learn advanced concepts of Entity Framework Core and become an expert in database access with EF Core."
+    },
+    {
+      "id": "CS055",
+      "img": "4.png",
+      "owner": "admin",
+      "releaseDate": "2/19/2024",
+      "view": 8,
+      "title": "Building Scalable Web Applications with Node.js",
+      "descriptions": [
+        "Explore the world of scalable web applications with our Node.js course!",
+        "In this course, you'll learn how to build high-performance, scalable web applications using Node.js. From asynchronous programming to creating RESTful APIs, we cover essential topics to help you become a proficient Node.js developer. Enroll now and master the art of building scalable web applications!",
+        "Prerequisites: Basic understanding of JavaScript."
+      ],
+      "numOfLessons": 20,
+      "numOfVideos": 10,
+      "numOfAssignments": 6,
+      "about": "Node.js, JavaScript",
+      "introduction": "Explore the world of scalable web applications with our Node.js course! Learn how to build high-performance, scalable web applications using Node.js."
+    },
+    {
+      "id": "CS056",
+      "img": "5.png",
+      "owner": "admin",
+      "releaseDate": "2/19/2024",
+      "view": 21,
+      "title": "Front-End Development with React",
+      "descriptions": [
+        "Dive into the world of modern front-end development with our React course!",
+        "Learn how to build interactive user interfaces and single-page applications with React. From component-based architecture to state management, this course covers the fundamentals of React development. Join now and enhance your front-end development skills with React!",
+        "Prerequisites: Basic knowledge of HTML, CSS, and JavaScript."
+      ],
+      "numOfLessons": 15,
+      "numOfVideos": 8,
+      "numOfAssignments": 4,
+      "about": "React, JavaScript",
+      "introduction": "Dive into the world of modern front-end development with our React course! Learn how to build interactive user interfaces and single-page applications with React."
+    },
+    {
+      "id": "CS057",
+      "img": "6.png",
+      "owner": "admin",
+      "releaseDate": "2/19/2024",
+      "view": 22,
+      "title": "Introduction to Python Programming",
+      "descriptions": [
+        "Embark on your journey into the world of Python programming with our introductory course!",
+        "In this course, you'll learn the basics of Python programming, including syntax, data types, and control structures. Whether you're a beginner or want to strengthen your foundation, this course is the perfect starting point. Enroll now and kickstart your Python programming journey!",
+        "No prerequisites required."
+      ],
+      "numOfLessons": 10,
+      "numOfVideos": 5,
+      "numOfAssignments": 2,
+      "about": "Python",
+      "introduction": "Embark on your journey into the world of Python programming with our introductory course! Learn the basics of Python programming, including syntax, data types, and control structures."
+    },
+    {
+      "id": "CS058",
+      "img": "7.png",
+      "owner": "admin",
+      "releaseDate": "2/19/2024",
+      "view": 19,
+      "title": "Data Science with R",
+      "descriptions": [
+        "Dive into the exciting field of data science with our R programming course!",
+        "In this course, you'll explore data analysis, visualization, and statistical modeling using the R programming language. Whether you're a data enthusiast or aspiring data scientist, this course provides a solid foundation. Enroll now and unlock the potential of data science with R!",
+        "Prerequisites: Basic knowledge of programming."
+      ],
+      "numOfLessons": 18,
+      "numOfVideos": 10,
+      "numOfAssignments": 6,
+      "about": "R, Data Science",
+      "introduction": "Dive into the exciting field of data science with our R programming course! Explore data analysis, visualization, and statistical modeling using the R programming language."
+    },
+    {
+      "id": "CS059",
+      "img": "8.png",
+      "owner": "admin",
+      "releaseDate": "2/19/2024",
+      "view": 17,
+      "title": "Angular for Web Development",
+      "descriptions": [
+        "Master Angular and become a skilled web developer with our comprehensive course!",
+        "In this course, you'll delve into the world of Angular and learn how to build dynamic, responsive web applications. From component architecture to dependency injection, we cover the essential concepts to help you become proficient in Angular development. Enroll now and elevate your web development skills with Angular!",
+        "Prerequisites: Basic knowledge of HTML, CSS, and JavaScript."
+      ],
+      "numOfLessons": 20,
+      "numOfVideos": 12,
+      "numOfAssignments": 8,
+      "about": "Angular, TypeScript",
+      "introduction": "Master Angular and become a skilled web developer with our comprehensive course! Learn how to build dynamic, responsive web applications with Angular."
+    },
+    {
+      "id": "CS060",
+      "img": "9.png",
+      "owner": "admin",
+      "releaseDate": "2/19/2024",
+      "view": 16,
+      "title": "Java Programming Fundamentals",
+      "descriptions": [
+        "Learn the fundamentals of Java programming with our introductory course!",
+        "In this course, you'll explore the basics of Java, including syntax, data types, and object-oriented programming principles. Whether you're a beginner or want to strengthen your Java skills, this course is the perfect starting point. Enroll now and kickstart your Java programming journey!",
+        "No prerequisites required."
+      ],
+      "numOfLessons": 12,
+      "numOfVideos": 6,
+      "numOfAssignments": 4,
+      "about": "Java",
+      "introduction": "Learn the fundamentals of Java programming with our introductory course! Explore the basics of Java, including syntax, data types, and object-oriented programming principles."
+    },
+    {
+      "id": "CS061",
+      "img": "10.png",
+      "owner": "admin",
+      "releaseDate": "2/19/2024",
+      "view": 37,
+      "title": "Cloud Computing Essentials",
+      "descriptions": [
+        "Explore the essentials of cloud computing with our comprehensive course!",
+        "In this course, you'll learn the fundamental concepts of cloud computing, including virtualization, scalability, and cloud service models. Whether you're new to cloud computing or want to deepen your knowledge, this course is the perfect choice. Enroll now and unlock the potential of cloud computing!",
+        "Prerequisites: Basic understanding of computer networks."
+      ],
+      "numOfLessons": 15,
+      "numOfVideos": 8,
+      "numOfAssignments": 6,
+      "about": "Cloud Computing",
+      "introduction": "Explore the essentials of cloud computing with our comprehensive course! Learn fundamental concepts, including virtualization, scalability, and cloud service models."
+    },
+    {
+      "id": "CS062",
+      "img": "11.png",
+      "owner": "admin",
+      "releaseDate": "2/19/2024",
+      "view": 12,
+      "title": "Mobile App Development with Flutter",
+      "descriptions": [
+        "Dive into mobile app development with our Flutter course!",
+        "Learn how to build cross-platform mobile applications with Flutter. From widget-based UI development to state management, this course covers the essential concepts to help you become a proficient mobile app developer. Enroll now and embark on your journey into Flutter app development!",
+        "Prerequisites: Basic knowledge of Dart programming language."
+      ],
+      "numOfLessons": 18,
+      "numOfVideos": 10,
+      "numOfAssignments": 6,
+      "about": "Flutter, Dart",
+      "introduction": "Dive into mobile app development with our Flutter course! Learn how to build cross-platform mobile applications with Flutter."
+    }
+  ]
+}

@@ -1,0 +1,273 @@
+<div class="container my-4">
+  <div class="row gx-4">
+    <div class="col-12 col-md-4">
+      <div class="bg-body" style="box-shadow: 0 1px 4px rgb(202, 202, 202)">
+        <div
+          class="p-4 border-bottom ff-roboto-sans d-flex align-content-center"
+        >
+          <h2 class="mb-0" style="width: 80%">Information</h2>
+          <button class="ms-auto" style="background: none; border: none">
+            <img
+              class="img-fluid justify-content-center"
+              src="/assets/icons/edit.png"
+              style="height: 30px"
+              alt=""
+            />
+          </button>
+        </div>
+        <div class="p-4 pb-5 row gx-3 gy-3 ff-quick-sans fs-15">
+          <div class="col-6">Username:</div>
+          <div class="col-6">{{ loggedInUser.userName }}</div>
+          <div class="col-6">Role</div>
+          <div class="col-6">
+            {{ (loggedInUser.isAdmin === true)? 'Admin' : 'User'}}
+          </div>
+          <div class="col-6">Create Time:</div>
+          <div class="col-6">{{ loggedInUser.createTime}}</div>
+          <div class="col-6">Email:</div>
+          <div class="col-6 text-truncate">{{ loggedInUser.email}}</div>
+          <div class="col-6">Phone:</div>
+          <div class="col-6">{{ loggedInUser.phone}}</div>
+          <div class="col-6">Studying Course:</div>
+          <div class="col-6">3</div>
+          <div class="col-6">Learned Course:</div>
+          <div class="col-6">4</div>
+        </div>
+      </div>
+
+      <div
+        class="bg-body mt-4"
+        style="box-shadow: 0 1px 4px rgb(202, 202, 202)"
+      >
+        <div class="p-4 border-bottom ff-roboto-sans">
+          <h2 class="mb-0">More Activities</h2>
+        </div>
+        <div class="p-4 row pb-5 gx-3 gy-3 ff-roboto-sans fs-15">
+          <div>If you excited to our website</div>
+          <button
+            class="btn btn-outline-success fw-semibold col-12"
+            type="button"
+          >
+            More Courses
+          </button>
+          <button
+            class="btn btn-outline-success fw-semibold col-12"
+            type="button"
+          >
+            More Projects
+          </button>
+
+          <div class="mt-5">Or you can download documents</div>
+          <button
+            class="btn btn-outline-success fw-semibold col-12"
+            type="button"
+          >
+            Download Document
+          </button>
+          <button
+            class="btn btn-outline-success fw-semibold col-12"
+            type="button"
+          >
+            Download Video
+          </button>
+          <button
+            class="btn btn-outline-success fw-semibold col-12"
+            type="button"
+          >
+            Download Assignment
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-8">
+      <div class="bg-body" style="box-shadow: 0 1px 4px rgb(202, 202, 202)">
+        <!-- User -->
+        <div class="row p-4 border-bottom ff-roboto-sans">
+          <div class="col-8">
+            <h2>{{loggedInUser.userName}}</h2>
+            <div class="d-flex mt-3 align-self-center">
+              <div class="d-flex">
+                <div class="">
+                  <a class="text-decoration-none" href=""
+                    >{{ (loggedInUser.isAdmin === true)? 'Admin' : 'User'}}</a
+                  >
+                </div>
+              </div>
+
+              <div class="d-flex ms-4">
+                <div class="ms-1 detail-owner-text">31/5/2004</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 position-relative">
+            <img
+              class="img-fluid position-absolute h-100"
+              style="right: 15px; border-radius: 40px"
+              src="/assets/userAvatars/admin.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <!-- Course List -->
+        <div
+          class="p-4 pb-5 border-bottom ff-roboto-sans"
+          style="letter-spacing: 0.3px; word-spacing: 1.5px; color: #666666"
+        >
+          <!-- Filter bar -->
+          <div class="d-flex">
+            <div>
+              <select class="form-select" aria-label="" style="width: 200px">
+                <option value="1">Studying Course</option>
+                <option value="2">Studying Project</option>
+                <option value="2">Learned Course</option>
+                <option value="2">Learned Project</option>
+              </select>
+            </div>
+            <div class="ms-auto">
+              <nav aria-label="Page navigation example" style="height: 40px">
+                <ul class="pagination">
+                  <li class="page-item">
+                    <a class="page-link active" href="#">1</a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+
+          <!-- repeat -->
+          <div class="">
+            <!-- C1 -->
+            <div
+              ng-repeat="c in userCourses"
+              class="bg-body-tertiary mt-4 mb-4"
+              style="box-shadow: 0 1px 4px rgb(202, 202, 202)"
+            >
+              <!-- detail header -->
+              <div class="py-3 px-4 border-bottom ff-roboto-sans">
+                <h6 class="mb-0 text-truncate">
+                  {{c.courseId}} - {{ c.courseDetails.title }}
+                </h6>
+              </div>
+              <!-- Body -->
+              <div
+                class="px-4 py-3 border-bottom ff-roboto-sans"
+                style="
+                  letter-spacing: 0.3px;
+                  word-spacing: 1.5px;
+                  color: #666666;
+                  font-size: 13px;
+                "
+              >
+                <div class="d-flex"></div>
+                <div class="row gy-3">
+                  <div class="col-4 col-sm-3 mt-4 fw-bold">Your progress:</div>
+                  <div class="col-8 col-sm-9 mt-4">Studying</div>
+                  <div class="col-4 col-sm-3">Lesson:</div>
+                  <div class="col-8 col-sm-9">
+                    <div
+                      class="progress h-100"
+                      role="progressbar"
+                    >
+                      <div
+                        class="progress-bar progress-bar-striped bg-success"
+                        ng-style="{ 'width': calculateProgressBarWidth(c.progress[0], c.courseDetails.numOfLessons)}"
+                      >
+                        {{ c.progress[0] }}
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-4 col-sm-3">Video:</div>
+                  <div class="col-8 col-sm-9">
+                    <div
+                      class="progress h-100"
+                      role="progressbar"
+                    >
+                      <div
+                        class="progress-bar progress-bar-striped bg-primary"
+                        ng-style="{ 'width': calculateProgressBarWidth(c.progress[1], c.courseDetails.numOfVideos)}"
+                      >
+                        {{ c.progress[1] }}
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-4 col-sm-3">Assignment:</div>
+                  <div class="col-8 col-sm-9">
+                    <div
+                      class="progress h-100"
+                      role="progressbar"
+                    >
+                      <div
+                        class="progress-bar progress-bar-striped bg-danger"
+                        ng-style="{ 'width': calculateProgressBarWidth(c.progress[2], c.courseDetails.numOfAssignments)}"
+                      >
+                        {{ c.progress[2] }}
+                      </div>
+                    </div>
+                  </div>
+                  <!-- <div class="col-4 col-sm-3">All</div>
+                  <div class="col-8 col-sm-9">
+                    <div class="progress-stacked h-100">
+                      <div
+                        class="progress h-100"
+                        role="progressbar"
+                        aria-label="Segment one"
+                        aria-valuenow="6"
+                        aria-valuemin="0"
+                        aria-valuemax="20"
+                        style="width: 30%"
+                      >
+                        <div
+                          class="progress-bar progress-bar-striped bg-success"
+                        >
+                          6
+                        </div>
+                      </div>
+                      <div
+                        class="progress h-100"
+                        role="progressbar"
+                        aria-label="Segment two"
+                        aria-valuenow="3"
+                        aria-valuemin="0"
+                        aria-valuemax="20"
+                        style="width: 15%"
+                      >
+                        <div
+                          class="progress-bar progress-bar-striped bg-primary"
+                        >
+                          3
+                        </div>
+                      </div>
+                      <div
+                        class="progress h-100"
+                        role="progressbar"
+                        aria-label="Segment three"
+                        aria-valuenow="1"
+                        aria-valuemin="0"
+                        aria-valuemax="20"
+                        style="width: 5%"
+                      >
+                        <div
+                          class="progress-bar progress-bar-striped bg-danger"
+                        >
+                          1
+                        </div>
+                      </div>
+                    </div>
+                  </div> -->
+                </div>
+              </div>
+              <div class="py-3 px-4 d-flex">
+                <button class="btn btn-success me-2">Continue</button>
+                <button ng-click="quitCourse($index)" class="btn btn-danger">Quit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

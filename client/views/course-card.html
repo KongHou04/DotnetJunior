@@ -1,0 +1,31 @@
+<div class="card">
+    <img
+      loading="eager"
+      class="card-img-top img-fluid"
+      [src]="imgUrl + course.img"
+    />
+    <div class="view-tag d-flex">
+      <img class="img-fluid me-1" src="../../../assets/icons/view.png" alt=""
+        style="height: 16px;">
+      <span style="color: #666666 ;font-size: 15px;align-self: center; line-height: 1;">{{course.view}}</span>
+    </div>
+    <div class="p-4">
+      <div class="mb-2 fs-22 fw-medium ff-dosis-sans">{{ course.title }}</div>
+      <div class="py-2 introduction border-top">{{ course.introduction }}</div>
+      <div class="row gx-3 pt-2">
+        <div class="col-6">
+          <button class="btn btn-secondary act-btn" style="width: 100%">
+            <a class="nav-link" [routerLink]="['/details', course.id]">
+              DETAILS
+            </a>
+          </button>
+        </div>
+        <div class="col-6">
+          <button class="btn btn-success act-btn" style="width: 100%">
+            START
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  

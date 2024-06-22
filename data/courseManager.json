@@ -1,0 +1,66 @@
+{
+  "cms": [
+    {
+      "id": "84eb",
+      "courses": [
+        {
+          "courseId": "CS003",
+          "progress": [
+            2,
+            2,
+            1
+          ]
+        },
+        {
+          "courseId": "CS021",
+          "progress": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "courseId": "CS005",
+          "progress": [
+            1,
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1b88",
+      "courses": []
+    },
+    {
+      "id": "16ae",
+      "courses": []
+    },
+    {
+      "id": "a8c8",
+      "courses": []
+    },
+    {
+      "id": "850d",
+      "courses": [
+        {
+          "courseId": "CS021",
+          "progress": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "courseId": "CS031",
+          "progress": [
+            1,
+            1,
+            1
+          ]
+        }
+      ]
+    }
+  ]
+}
